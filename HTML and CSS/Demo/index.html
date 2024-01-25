@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First HTML Document</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            /*Type Selector*/
+            h1{
+                color: red;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            p{
+                text-decoration: underline;
+            }
+            
+            /*Class Selector*/
+            .warning{
+                color:brown;
+            }
+            
+            /*ID Selector*/
+            #element{
+                border: 2px solid green;
+            }
+
+            /*CSS Combinator - DEscendant*/
+            article p{
+                text-align: justify;
+            }
+            article header h3{
+                text-align: center;
+            }
+
+            /*CSS Direct Combinator - Child*/
+            ul > li{
+                color: palegreen;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>My Document Heading</h1>
+        <p>My first paragraph</p>
+        
+        <h2>Heading level 2</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi fugit reiciendis sed fuga vel eos officiis saepe laborum qui? Tempora nihil minima repellendus velit sapiente officia consectetur alias reiciendis nemo.</p>
+        
+        <h3>Heading level 3</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi fugit reiciendis sed fuga vel eos officiis saepe laborum qui? Tempora nihil minima repellendus velit sapiente officia consectetur alias reiciendis nemo.</p>
+        
+        <h4>Heading level 4</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi fugit reiciendis sed fuga vel eos officiis saepe laborum qui? Tempora nihil minima repellendus velit sapiente officia consectetur alias reiciendis nemo.</p>
+
+    </body>
+</html>
