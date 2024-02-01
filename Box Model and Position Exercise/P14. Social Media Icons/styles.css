@@ -1,0 +1,40 @@
+ul li{
+    display: inline-block;
+
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+li {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.facebook:hover {
+    fill: #316FF6;
+}
+
+.twitter:hover {
+    fill: #08a0e9;
+}
+
+.google:hover {
+    fill: #dd4b39;
+}
+
+.linkedin:hover {
+    fill: #0077B5;
+}
+
+.instagram:hover {
+    fill: rgba(238,42,123,1);
+}
