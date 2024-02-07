@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div {
+    flex: 0 0 60px;
+    width: 60px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+    border-radius: 8px;
+    transition: all 0.3s ease-in;
+}
+
+div img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div:hover {
+    width: 400px;
+    flex: 0 0 400px;
+}

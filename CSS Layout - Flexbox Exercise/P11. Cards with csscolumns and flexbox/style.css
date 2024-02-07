@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.masonry{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    margin-bottom: 3em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item {
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.4);
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.row1 .item:nth-child(1) {
+    height: 100%;
+}
+
+.row1 .item:nth-child(1) footer {
+    margin-bottom: 0;
+    margin-top: 348px;
+}
+
+.row1 .item:nth-child(2) footer {
+    margin-bottom: 0;
+    margin-top: 266px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.row2 .item:nth-child(2) footer {
+    margin-bottom: 0;
+    margin-top: 97px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+.row3 .item:nth-child(2) footer {
+    margin-bottom: 0;
+    margin-top: 266px;
+}
+
+.item p {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    width: 85%;
+}
+
+.item h2 {
+    padding-left: 20px;
+}
+
+.item footer {
+    padding-left: 20px;
+    border-top: 2px solid rgb(238, 238, 238);
+    margin-top: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}

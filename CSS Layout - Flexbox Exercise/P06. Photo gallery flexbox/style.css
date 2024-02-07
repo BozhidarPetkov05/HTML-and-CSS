@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 35px;
+    min-width: 320px;
+    background-color: #ddd9d9;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em;
+    justify-content: center;  
+}
+
+li {
+    list-style: none outside;
+    border: 8px solid black;
+    flex: 0 0 250px;
+    padding: 1.5em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
