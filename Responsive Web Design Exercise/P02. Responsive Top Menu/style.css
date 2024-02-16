@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-evenly;
+    
+}
+
+header, .nav, .tasks {
+    background-color: rgb(184, 218, 248);
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+header {
+    padding-left: 1em;  
+    display: flex;
+    align-items: baseline;
+}
+
+.top {
+    display: flex;
+    align-items: baseline;
+    gap: 2em;
+    padding-left: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    width: 30%;
+    padding-left: 1em;
+    padding-top: 1em;
+    line-height: 1.5;
+}
+
+.tasks {
+    width: 70%;
+    padding-left: 1em;
+}
+
+.task-list {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+footer {
+    background-color: rgb(184, 218, 248);
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .row {
+        flex-direction: column;
+        gap: 1em;
+    }
+    .nav {
+        width: 100%;
+    }
+    .tasks {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+    }
+    .top {
+        flex-direction: column;
+        gap: 1em;
+        padding-left: 37%;
+    }
+}
