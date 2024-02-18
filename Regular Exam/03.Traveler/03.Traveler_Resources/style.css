@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Cormorant Infant";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none outside;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Karla;
+    color: white;
+}
+
+.top-page {
+    padding-top: 34px;
+    margin-left: 34px;
+    margin-right: 80px;
+}
+
+
+
+header .logo {
+    display: block;
+    width: 111px;
+    height: 63px;
+    overflow: hidden;
+    text-indent: -200px;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header .big-text {
+    font-family: "Cormorant Infant";
+    font-size: 90px;
+    padding-top: 270px;
+    padding-bottom: 150px;
+    font-weight: bold;
+    color: white;
+}
+
+header .small-text {
+    font-family: Karla;
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top center;
+    padding-bottom: 180px;
+}
+
+.quote {
+    background-color: #F8F0E9;
+    padding-top: 60px;
+    padding-left: 511px;
+    padding-bottom: 100px;
+}
+
+.quote .quote-text p {
+    font-family: Karla;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.quote .quote-text h1 {
+    font-size: 59px;
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    color: #352B2A;
+    line-height: 1;
+}
+
+.support {
+    background-color: #E14747;
+    color: white;
+    font-family: Karla;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.support h3 {
+    font-size: 22px;
+    padding-bottom: 34px;
+}
+
+.support p {
+    font-size: 18px;
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.read-more {
+    background-color: #F8F0E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.read-more img {
+    width: 535px;
+}
+
+.read-more h2 {
+    font-size: 57px;
+    width: 500px;
+    text-align: center;
+    line-height: 1;
+    color: #352B2A;
+    padding-top: 60px;
+}
+
+.read-more p {
+    font-size: 18px;
+    color: #352B2A;
+    width: 510px;
+    font-family: Karla;
+    padding-top: 67px;
+    padding-bottom: 60px;
+}
+
+.read-more a {
+    font-family: Karla;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 6px 16px;
+    text-align: center;   
+}
+
+.read-more .read-more-button {
+    align-self: flex-start;
+    margin-left: 697px;
+    margin-bottom: 60px;
+}
+
+.read-more .read-all {
+    margin-bottom: 60px;
+}
+
+.find-local {
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 49px;
+}
+
+.find-local h1 {
+    font-family: "Cormorant Infant";
+    color: white;
+    font-size: 57px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.find-local p {
+    font-family: Karla;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.find-local .button-local {
+    text-decoration: none;
+    color: black;
+    font-family: Karla;
+    font-size: 17px;
+    padding: 14px 18px;
+    border-radius: 1000px;
+    background-color: #FAD87A;
+    margin-top: 55px;
+}
+
+footer {
+    background-color: #352B2A;
+    padding-top: 42px;
+    padding-left: 210px;
+}
+
+footer a {
+    display: block;
+    width: 73px;
+    height: 46px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    font-family: Karla;
+    padding-top: 35px; 
+}
+
+footer .copyright {
+    opacity: 23%;
+    padding-bottom: 35px;
+}
